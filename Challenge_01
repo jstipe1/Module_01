@@ -1,50 +1,65 @@
 # Module_01
-# TITLE
+# NVIDIA  - The GPU Juggernaut
 
-## Overview and Origin
+# Overview and Origin
 
-* Name of company
+## NVIDIA
 
-* When was the company incorporated?
+## IPO: January 22, 1999
 
-* Who are the founders of the company?
+## Founders: Jensen Huang, Chris Malachowsky, Curtis Preim
 
-* How did the idea for the company (or project) come about?
+## Like many Silicon Valley tech companies the origin story of NVIDIA is a humble one.  The founders created the company at Denny's
+## restaurant in East San Jose. The basis of the company was the forecasted growth in accelerated computing, especially as it related
+## to graphics-based processing. Video games provided the founds with some of the most computationally complex problems and high sales
+## volume.
 
-* How is the company funded? How much funding have they received?
+## Nvidia was started with just $40,000 dollars, pooled from the three founders.  This "seed" money was soon joined with $20 Milllion
+## of venture capital funds from Sequoia Capital and others.  Roughly $42 Million was raised from their IPO in early 
+## 1999 - [Wall Street Journal](https://www.wsj.com/articles/SB917224371262043000)
 
-## Business Activities
+# Business Activities
 
-* What specific problem is the company or project trying to solve?
+## NVIDIA has branched out into many other areas of computing since that day at Denny's back in 1993.  They have made significant impacts
+## in the areas of automotive computer chips and self driving cars as well, AI, healthcare anlaysis and devices, and robotics.
+## Through this exapansion they haven't lost site of their originial focus of graphics-based processing.  It is estimated that in 2023 NVIDIA
+## held an 80% share of GPU (graphics processing units) globally.
 
-* Who is the company's intended customer? Is there any information about the market size of this set of customers?
+## NVIDIA has selected an area of focus that has a broad and growing consumer base.  Every CPU, laptop, tablet, and cell phone has a GPU for graphics processing at minimum.  
+## As most consumers own many of these devices, nd in many cases replaces them regularly the market for GPUs is expansive, and not likely to become saturated or stale.
+## While gaming and video streaming provide one set of customers, GPUs are also needed for data-heavy AI processing - which is perhapse the fastest growing area of tech
+## right now.
 
-* What solution does this company offer that their competitors do not or cannot offer? (What is the unfair advantage they utilize?)
+## NVIDIA is currently offering a unique solution in the market they've coined Multi-Instance GPU (MIG) that partitians the GPU into
+## as many as 7 instances, each with their own bandwidth.
 
-* Which technologies are they currently using, and how are they implementing them? (This may take a little bit of sleuthing&mdash;you may want to search the company’s engineering blog or use sites like Stackshare to find this information.)
+>Without MIG, different jobs running on the same GPU, such as different AI inference requests, compete for the same resources. A job consuming larger memory bandwidth
+>starves others, resulting in several jobs missing their latency targets. With MIG, jobs run simultaneously on different instances, each with dedicated resources
+>for compute, memory, and memory bandwidth, resulting in predictable performance with QoS and maximum GPU utilization.
+>## [MIG image](https://www.nvidia.com/content/nvidiaGDC/us/en_US/technologies/multi-instance-gpu/_jcr_content/root/responsivegrid/nv_container_256383532/nv_image.coreimg.100.1070.png/1710253951850/multi-instance-gpu-tech-works-1cc-d-2x.png)
 
-## Landscape
+# Landscape & Results
 
-* What field is the company in?
+## NVIDIA is by far the largest manufacturer of GPUs, which has landed them in legal trouble more than once with governments raise 'competition concerns'. The company has
+## several competitors in the market place including AMD, Intel, Apple, and ASUS. NVIDIA has also been navigating the perilous chip wars between the US and China.  
+## Increasingly, the US is blocking chips manufactured in China due spying concerns.
 
-* What have been the major trends and innovations of this field over the last 5&ndash;10 years?
+## NVIDIA stock rose 240% in 2023, driving the value of the company over $1 Trillion dollars.  In early 2024, storng trading was replaced with metoroic rises and NVIDIA 
+##crossed the $2 Trillion dollar mark in early 2024.
+ - [www.nasday.com](<https://www.nasdaq.com/articles/why-is-nvidia-stock-so-high-and-can-nvda-become-the-biggest-u.s.-company#:~:text=The%20key%20reason%20Nvidia%20stock,its%20240%25%20rise%20in%202023.>)
 
-* What are the other major companies in this field?
+# Recommendation
 
-## Results
+## As the tension between China and the US regarding chip manufacturing exports, NVIDIA may find it beneficial to seek manufacturers outside of China to product their chips.
+A diversivied production network will provide stability for the company as the US places new export regularions on Chinese manufactueres.  Additionally, NVIDIA needs
+## to ensure they have strong lobbists. As regulations around AI and it's capabilities come to the forefront, it will be imperative that chip manufactureres have their voice
+represented in the discussion.
 
-* What has been the business impact of this company so far?
-
-* What are some of the core metrics that companies in this field use to measure success? How is your company performing based on these metrics?
-
-* How is your company performing relative to competitors in the same field?
-
-## Recommendations
-
-* If you were to advise the company, what products or services would you suggest they offer? (This could be something that a competitor offers, or use your imagination!)
-
-* Why do you think that offering this product or service would benefit the company?
-
-* What technologies would this additional product or service utilize?
-
-* Why are these technologies appropriate for your solution?
+# References
+## <https://www.nvidia.com/en-us/>
+## <https://en.wikipedia.org/wiki/Nvidia#References>
+## <https://www.britannica.com/topic/NVIDIA-Corporation>
+## <https://www.wsj.com/articles/SB917224371262043000>
+## <https://techovedas.com/10-largest-gpu-companies-in-the-world/>
+## <https://techovedas.com/10-largest-gpu-companies-in-the-world/>
+## <https://www.nasdaq.com/articles/why-is-nvidia-stock-so-high-and-can-nvda-become-the-biggest-u.s.-company#:~:text=The%20key%20reason%20Nvidia%20stock,its%20240%25%20rise%20in%202023.>
